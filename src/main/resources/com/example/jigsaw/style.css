@@ -1,0 +1,14 @@
+.circus {
+    -fx-background-image: url('images/arena.gif');
+    -fx-background-size: 100%, 100%;
+}
+
+.fight {
+    -fx-background-image: url(images/fight.png);
+    -fx-background-size: 100%, 100%;
+}
+
+.mercy {
+    -fx-background-image: url(images/mercy.png);
+    -fx-background-size: 100%, 100%;
+}

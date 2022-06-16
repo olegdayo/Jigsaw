@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane fx:id="game" maxHeight="800.0" maxWidth="1400.0" minHeight="800.0" minWidth="1400.0" prefHeight="800.0" prefWidth="1400.0" styleClass="circus" stylesheets="@style.css" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.jigsaw.JigsawController">
+    <children>
+        <ImageView fx:id="Kris" fitHeight="188.0" fitWidth="123.0" layoutX="130.0" layoutY="137.0" pickOnBounds="true" preserveRatio="true">
+            <image>
+                <Image url="@images/krisStand.gif" />
+            </image>
+        </ImageView>
+        <ImageView fx:id="Susie" fitHeight="150.0" fitWidth="200.0" layoutX="54.0" layoutY="322.0" pickOnBounds="true" preserveRatio="true">
+            <image>
+                <Image url="@images/susieStand.gif" />
+            </image>
+        </ImageView>
+        <ImageView fx:id="Ralsei" fitHeight="150.0" fitWidth="200.0" layoutX="100.0" layoutY="535.0" pickOnBounds="true" preserveRatio="true">
+            <image>
+                <Image url="@images/ralseiStand.gif" />
+            </image>
+        </ImageView>
+        <ImageView fx:id="Jevil" fitHeight="150.0" fitWidth="200.0" layoutX="1130.0" layoutY="333.0" pickOnBounds="true" preserveRatio="true">
+            <image>
+                <Image url="@images/jevilSpin.gif" />
+            </image>
+        </ImageView>
+        <Button id="NewGame" fx:id="NewGame" layoutX="600.0" layoutY="660.0" mnemonicParsing="false" onAction="#newGame" prefHeight="56.0" prefWidth="140.0" styleClass="fight" />
+        <Button id="Exit" fx:id="Exit" layoutX="800.0" layoutY="660.0" mnemonicParsing="false" onAction="#exit" prefHeight="56.0" prefWidth="140.0" styleClass="mercy" />
+    </children>
+</AnchorPane>
